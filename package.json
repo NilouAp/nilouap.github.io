@@ -1,0 +1,22 @@
+{
+  "name": "mmderakhshani.github.io",
+  "version": "1.0.0",
+  "source": "./index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": "git@github.com:AliTaee/mmderakhshani.github.io.git",
+  "author": "AliTaee <ali.taee.72@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.8.2"
+  },
+  "devDependencies": {
+    "@parcel/resolver-glob": "^2.8.2",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1"
+  }
+}
