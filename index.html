@@ -135,6 +135,44 @@
 				  </td>
 				</tr>
 
+							  <!-- New Publication: FreqDebias -->
+				<tr onmouseout="tcd_stop_FreqDebias()" onmouseover="tcd_start_FreqDebias()">
+				  <td style="padding:10px;width:25%;vertical-align:top">
+					<div class="image-container">
+					  <!-- Default Image -->
+					  <img id="paper_Freq" src="images/overview_Freq.png" alt="Image of FreqDebias Paper" width="200" style="border-style: none">
+					</div>
+
+					<script type="text/javascript">
+					  // Function to change the image when hovered
+					  function tcd_start_FreqDebias() {
+						document.getElementById('paper_Freq').src = "images/GradCAM_Freq.png";
+					  }
+
+					  // Function to revert back to the original image
+					  function tcd_stop_FreqDebias() {
+						document.getElementById('paper_Freq').src = "images/overview_Freq.png";
+					  }
+					</script>
+				  </td>
+
+				  <td style="padding-bottom:35px;width:75%;vertical-align:middle">
+					<a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Kashiani_FreqDebias_Towards_Generalizable_Deepfake_Detection_via_Consistency-Driven_Frequency_Debiasing_CVPR_2025_paper.pdf">
+					  <papertitle style="color:#1772d0;">"FreqDebias: Towards Generalizable Deepfake Detection via Consistency-Driven Frequency Debiasing.</papertitle>
+					</a>
+					<br>
+					H Kashiani, <strong>NA Talemi </strong>, F Afghah
+					<br>
+					<em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2025.
+					<br>
+					  <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Kashiani_FreqDebias_Towards_Generalizable_Deepfake_Detection_via_Consistency-Driven_Frequency_Debiasing_CVPR_2025_paper.pdf">CVF</a> /
+                  <a href="https://ieeexplore.ieee.org/abstract/document/11094766">IEEE</a> /
+                    <a href="data/CVPR_FREQ.pdf">Poster</a>
+					<p align="justify">
+					   We propose FreqDebias, a frequency debiasing framework that mitigates spectral bias in deepfake detection through Forgery Mixup augmentation and dual consistency regularization, improving cross-domain generalization.
+					</p>
+				  </td>
+				</tr>
 
               				<!-- New Publication: Style-Pro -->
 				<tr onmouseout="tcd_stop_stylepro()" onmouseover="tcd_start_stylepro()">
