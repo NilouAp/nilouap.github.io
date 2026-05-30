@@ -177,17 +177,19 @@ h2 {
 
 .socials {
   list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
+  padding-left: 0;
+  margin: 15px 0 0 0;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .socials__item {
-  margin-right: 0.5em;
+  display: inline-block;
+  margin: 0 8px;
 }
 
 .socials__item::after {
-  content: ' ';
+  content: '';
   margin-left: 0.5em;
 }
 
