@@ -187,7 +187,7 @@ h2 {
 }
 
 .socials__item::after {
-  content: '/';
+  content: ' ';
   margin-left: 0.5em;
 }
 
