@@ -2,6 +2,18 @@
 <html lang="en">
 
 <head>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+
+#news,
+#talks,
+#reviewer-service,
+#publications {
+  scroll-margin-top: 80px;
+}
+</style>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Niloufar Alipour Talemi</title>
 
@@ -13,6 +25,30 @@
 </head>
 
 <body>
+
+ <!-- Navigation Tabs -->
+  <nav style="
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: white;
+      text-align: center;
+      padding: 12px 0;
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 20px;">
+
+      <a href="#news" style="margin:0 15px;color:#008080;font-weight:600;text-decoration:none;">News</a>
+
+      <a href="#talks" style="margin:0 15px;color:#008080;font-weight:600;text-decoration:none;">Talks</a>
+
+      <a href="#reviewer-service" style="margin:0 15px;color:#008080;font-weight:600;text-decoration:none;">Reviewer Service</a>
+
+      <a href="#publications" style="margin:0 15px;color:#008080;font-weight:600;text-decoration:none;">Publications</a>
+  </nav>
+
+  <main class="main">
+
+
   <main class="main">
     <article class="intro">
       <div class="intro__info">
@@ -50,7 +86,7 @@ My research centers on <strong>efficient, robust, and generalizable adaptation</
     </article>
 
 
-    <section class="section">
+    <section class="section" id="news">
       <h2><span style="color: #008080;">News</span></h2>
       <ul style="list-style-type: disc;">
 
@@ -80,7 +116,7 @@ My research centers on <strong>efficient, robust, and generalizable adaptation</
 
 
 
-	 <section class="section">
+	 <section class="section" id="talks">
   <h2><span style="color: #008080;">Talks</span></h2>
 		 <table style="width:100%;max-width:1040px;margin:0 auto;border:0;border-spacing:15px;border-collapse:separate;">
 			<tbody>
@@ -168,7 +204,7 @@ My research centers on <strong>efficient, robust, and generalizable adaptation</
           <br>
 
 
-<section class="section">
+<section class="section" id="reviewer-service">
   <h2><span style="color: #008080;">Reviewer Service</span></h2>
 
   <p align="justify">
