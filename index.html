@@ -17,11 +17,55 @@ html {
   scroll-behavior: smooth;
 }
 
+#research-interests,
 #news,
 #talks,
 #reviewer-service,
 #publications {
   scroll-margin-top: 80px;
+}
+
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(90deg, #3b0764, #7c3aed, #0f766e);
+  padding: 14px 42px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+.topbar-name {
+  color: white;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+}
+
+.topbar-name span {
+  font-size: 19px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.topbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 24px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.topbar-links a:hover {
+  color: #f5d0fe;
 }
 </style>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -38,24 +82,20 @@ html {
 <body>
 
  <!-- Navigation Tabs -->
-  <nav style="
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      background: white;
-      text-align: center;
-      padding: 12px 0;
-      border-bottom: 1px solid #e0e0e0;
-      margin-bottom: 20px;">
 
-      <a href="#news" style="margin:0 15px;color:#008080;font-weight:600;text-decoration:none;">News</a>
+<nav class="topbar">
+  <div class="topbar-name">
+    Niloufar <span>(Nila)</span> Alipour Talemi
+  </div>
 
-      <a href="#talks" style="margin:0 15px;color:#008080;font-weight:600;text-decoration:none;">Talks</a>
-
-      <a href="#reviewer-service" style="margin:0 15px;color:#008080;font-weight:600;text-decoration:none;">Reviewer Service</a>
-
-      <a href="#publications" style="margin:0 15px;color:#008080;font-weight:600;text-decoration:none;">Publications</a>
-  </nav>
+  <div class="topbar-links">
+    <a href="#research-interests">Research Interests</a>
+    <a href="#news">News</a>
+    <a href="#talks">Talks</a>
+    <a href="#reviewer-service">Reviewer Service</a>
+    <a href="#publications">Publications</a>
+  </div>
+</nav>
 
   <main class="main">
 
@@ -63,10 +103,10 @@ html {
   <main class="main">
     <article class="intro">
       <div class="intro__info">
-        <h1>
-          <span style="color: #008080;">Niloufar (Nila) Alipour Talemi</span>
-        </h1>
-        <p class="intro__skills"> Computer Vision | Machine Learning | Vision-Language Models</p>
+<!--        <h1>-->
+<!--          <span style="color: #008080;">Niloufar (Nila) Alipour Talemi</span>-->
+<!--        </h1>-->
+
         <p class="intro__about-me">
           <b>Welcome to my homepage!</b> <br>
           <br>
@@ -91,6 +131,29 @@ My research centers on <strong>efficient, robust, and generalizable adaptation</
         <img class="portfolio-image" alt="profile photo" src="images/Nila_A.JPG">
       </div>
     </article>
+
+
+
+
+
+
+
+
+
+      <section class="section" id="research-interests">
+  <h2><span style="color: #008080;">Research Interests</span></h2>
+
+  <p align="justify">
+    My research interests include computer vision, machine learning, vision-language models, multimodal large language models, robust and generalizable model adaptation, prompt learning, parameter-efficient fine-tuning, anomaly detection, wildfire monitoring, medical image analysis, and face recognition.
+  </p>
+</section>
+
+<br>
+<br>
+
+
+
+
 
 
     <section class="section" id="news">
