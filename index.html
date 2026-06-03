@@ -129,9 +129,122 @@ html {
 }
 
 #research-interests {
-  margin-top: -90px !important;
+  margin-top: 25px !important;
   padding-top: 0 !important;
 }
+
+@media screen and (max-width: 768px) {
+
+  .topbar {
+    position: relative !important;
+    width: 100% !important;
+  }
+
+  .topbar-inner {
+    width: 100% !important;
+    padding: 18px 12px !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .topbar-name {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 22px !important;
+    white-space: normal !important;
+    line-height: 1.3 !important;
+    margin-bottom: 14px !important;
+  }
+
+  .topbar-name span {
+    font-size: 20px !important;
+  }
+
+  .topbar-links {
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 8px 14px !important;
+  }
+
+  .topbar-links a {
+    margin-left: 0 !important;
+    font-size: 15px !important;
+    line-height: 1.3 !important;
+  }
+
+  .intro {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-bottom: 25px !important;
+  }
+
+  .intro__info {
+    width: 100% !important;
+    order: 2 !important;
+  }
+
+  .intro__image {
+    width: 100% !important;
+    order: 1 !important;
+    margin-bottom: 20px !important;
+  }
+
+  .portfolio-image {
+    width: 85% !important;
+    max-width: 330px !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
+  }
+
+  .photo-socials {
+    margin-top: 14px !important;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 16px !important;
+    flex-wrap: wrap !important;
+  }
+
+  #research-interests {
+    margin-top: 20px !important;
+  }
+
+  table {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  #talks table,
+  #talks tbody,
+  #talks tr,
+  #talks td {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  #publications table {
+    width: 100% !important;
+  }
+
+  #publications tr,
+  #publications td {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+
+ .welcome-title {
+  font-size: 19px;
+  margin-top: 30px;
+  margin-bottom: 36px;
+}
+
 </style>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Niloufar Alipour Talemi</title>
@@ -164,7 +277,6 @@ html {
   </div>
 </nav>
 
-  <main class="main">
 
 
   <main class="main">
@@ -174,7 +286,7 @@ html {
 <!--          <span style="color: #008080;">Niloufar (Nila) Alipour Talemi</span>-->
 <!--        </h1>-->
 
-       <h2>Welcome to my homepage!</h2>
+<h2 class="welcome-title">Welcome to my homepage!</h2>
 
 <p class="intro__about-me">
   I am a Research Associate within the <a target="_blank"
