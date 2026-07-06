@@ -112,6 +112,32 @@ html {
 .photo-socials a:hover {
   color: #005f5f;
 }
+
+.lab-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 7px 16px;
+  border: 1px solid #008080;
+  border-radius: 20px;
+  color: #008080;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.lab-link i {
+  font-size: 14px;
+}
+
+.lab-link:hover {
+  background: #008080;
+  color: #ffffff;
+}
 .intro {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
@@ -282,6 +308,38 @@ html {
 
   <main class="main">
     <article class="intro">
+      <div class="intro__image">
+
+  <img class="portfolio-image" alt="profile photo" src="images/Nila_A.png">
+
+  <div class="photo-socials">
+    <a target="_blank" href="mailto:nalipou@clemson.edu" title="Email">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+
+    <a target="_blank" href="https://scholar.google.com/citations?user=XpXf0A8AAAAJ&hl=en" title="Google Scholar">
+      <i class="fa-brands fa-google-scholar"></i>
+    </a>
+
+    <a target="_blank" href="https://github.com/NilouAP/" title="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a target="_blank" href="https://x.com/nilouta?s=11/" title="Twitter/X">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
+
+    <a target="_blank" href="https://www.linkedin.com/in/niloufar-alipour-electricalengineer/" title="LinkedIn">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </div>
+
+  <a class="lab-link" target="_blank" href="https://aimlab-research.github.io/" title="AIM Lab">
+    <i class="fa-solid fa-people-group"></i>
+    <span>AIM Lab</span>
+  </a>
+
+</div>
       <div class="intro__info">
 <!--        <h1>-->
 <!--          <span style="color: #008080;">Niloufar (Nila) Alipour Talemi</span>-->
@@ -334,33 +392,6 @@ html {
 <!--</ul>-->
         </p>
       </div>
-   <div class="intro__image">
-
-  <img class="portfolio-image" alt="profile photo" src="images/Nila_A.png">
-
-  <div class="photo-socials">
-    <a target="_blank" href="mailto:nalipou@clemson.edu" title="Email">
-      <i class="fa-solid fa-envelope"></i>
-    </a>
-
-    <a target="_blank" href="https://scholar.google.com/citations?user=XpXf0A8AAAAJ&hl=en" title="Google Scholar">
-      <i class="fa-brands fa-google-scholar"></i>
-    </a>
-
-    <a target="_blank" href="https://github.com/NilouAP/" title="GitHub">
-      <i class="fa-brands fa-github"></i>
-    </a>
-
-    <a target="_blank" href="https://x.com/nilouta?s=11/" title="Twitter/X">
-      <i class="fa-brands fa-x-twitter"></i>
-    </a>
-
-    <a target="_blank" href="https://www.linkedin.com/in/niloufar-alipour-electricalengineer/" title="LinkedIn">
-      <i class="fa-brands fa-linkedin"></i>
-    </a>
-  </div>
-
-</div>
     </article>
 
 <section class="section" id="research-interests">
@@ -1062,4 +1093,4 @@ html {
   </main>
 </body>
 
-</html>
+</html
